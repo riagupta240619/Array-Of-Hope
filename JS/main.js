@@ -18,3 +18,8 @@ fullcup.addEventListener("click", () => {
     empcup.classList.remove("empty");
     console.log("empty");
 });
+fullcup.addEventListener("click", () => {
+    fullcup.classList.add("empty");
+    empcup.classList.remove("empty");
+    console.log("empty");
+});
