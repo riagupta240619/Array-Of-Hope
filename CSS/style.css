@@ -56,13 +56,13 @@ button {
     transition: background-color 0.3s ease;
     margin: 10px;
 }
-
+    
 .nav_extras {
     margin-left: auto; /* Align to the right */
 }
 
 button:hover {
-    background-color: #C5A28A; /* Different hover color */
+    background-color: #C5A28A; 
 }
 
 form.example input[type=text] {
