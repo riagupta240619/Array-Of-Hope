@@ -47,3 +47,7 @@ Contributions are welcome! Feel free to fork the project and submit a pull reque
 ---
 
 Let me know if you'd like a version tailored to a specific framework (like React, Django, etc.) or with specific café branding!
+project members 
+Ria Gupta (2410990619)
+Renu Singh (2410990618)
+Soham Sood (2410990634)
