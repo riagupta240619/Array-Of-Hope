@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-}
-
+]
 /* navbvar */
 
 li, a, button {
@@ -12,6 +11,7 @@ li, a, button {
     font-weight: 500;
     font-size: 16px;
     color: #402E02;
+/*     background-color: red; */
     text-decoration: none;
 }
 
