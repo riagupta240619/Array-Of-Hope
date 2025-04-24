@@ -208,5 +208,6 @@ footer {
 }
 
 body {
-  transition: all;
+  transition: 0;
 }
+
