@@ -205,3 +205,8 @@ footer {
   flex-basis: 25%;
   padding: 10px;
 }
+
+
+body {
+  transition: none;
+}
