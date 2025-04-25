@@ -208,6 +208,6 @@ footer {
 }
 
 body {
-  transition: 0;
+  transition: ease-in;
 }
 
