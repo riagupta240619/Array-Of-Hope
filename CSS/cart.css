@@ -209,8 +209,5 @@ footer {
 
 body {
   transition: ease-in;
-}
-
-body {
-  transition: ease;
+  /* adds the transition feature to the body */
 }
