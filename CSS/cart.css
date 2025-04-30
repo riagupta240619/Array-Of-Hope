@@ -1,20 +1,21 @@
 body {
-  margin: 0;
-  background-color: #fff7ef;
-  color: #402e02;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    background-color: #fff7ef;
+    color: #402E02;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Cart CSS */
+
 
 /* navbvar */
 
-li,
-a,
-button {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+li, a, button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  color: #402e02;
+  color: #402E02;
   text-decoration: none;
 }
 
@@ -22,7 +23,7 @@ header {
   display: flex;
   align-items: center;
   background-color: white;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 .logo {
@@ -47,12 +48,12 @@ nav {
   display: inline-block;
   padding: 0 10px;
   font-size: larger;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button {
   padding: 19px 30px;
-  background-color: #d6bea2;
+  background-color: #D6BEA2;
   border: none;
   border-radius: 50px;
   cursor: pointer;
@@ -61,25 +62,27 @@ button {
 }
 
 .nav_extras {
-  margin-left: auto;
+  margin-left: auto; 
 }
 
 button:hover {
-  background-color: #c5a28a;
+  background-color: #C5A28A; 
 }
 
-form.example input[type="text"] {
+form.example input[type=text] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
-  width: 600px;
+  width: 600px; 
   max-width: 2000px; /* Set max-width */
   background: #f1f1f1;
   border-radius: 50px;
   margin: 5px 5px 5px 20px;
 }
 
-.full-cup {
+
+
+.full-cup{
   background-image: url(../Assets/full.jpg);
   background-size: cover;
   background-repeat: none;
@@ -89,7 +92,7 @@ form.example input[type="text"] {
   margin-left: 1100px;
 }
 
-.half-cup {
+.half-cup{
   background-image: url(../Assets/half.png);
   background-size: cover;
   background-repeat: none;
@@ -97,9 +100,10 @@ form.example input[type="text"] {
   width: 95px;
   position: absolute;
   margin-left: 1100px;
+
 }
 
-.empty-cup {
+.empty-cup{
   background-image: url(../Assets/emp.png);
   background-size: cover;
   background-repeat: none;
@@ -107,79 +111,84 @@ form.example input[type="text"] {
   width: 95px;
   position: absolute;
   margin-left: 1100px;
+
 }
 
-.empty {
+.empty{
   display: none;
 }
 
-.non-empty {
+
+.non-empty{
   display: block;
 }
 
-/* Cart Section */
-.cart-section {
-  padding: 30px;
-  text-align: center;
-}
 
-.cart-container {
-  max-width: 800px;
-  margin: 0 auto;
-  background: #f9f1e7;
-  border-radius: 10px;
-  padding: 20px;
-}
+  
+  /* Cart Section */
+  .cart-section {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .cart-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f9f1e7;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+  }
+  
+  .cart-item img {
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
 
-.cart-item {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #ccc;
-  padding: 15px 0;
-}
-
-.cart-item img {
-  width: 100px;
-  border-radius: 10px;
-  margin-right: 20px;
-}
-
-.item-details {
-  text-align: left;
-  flex-grow: 1;
-}
-
-.item-details input {
-  padding: 5px;
-  width: 60px;
-  font-size: 16px;
-  margin-top: 5px;
-}
-
-.cart-total {
-  margin-top: 20px;
-  font-size: 22px;
-}
-
-.checkout-btn {
-  background-color: #402e02;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 5px;
-  margin-top: 10px;
-}
-
-.footer {
+  .item-details {
+    text-align: left;
+    flex-grow: 1;
+  }
+  
+  .item-details input {
+    padding: 5px;
+    width: 60px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  
+  .checkout-btn {
+    background-color: #402E02;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  
+.footer{
   background-color: #fff7ef;
 }
 
 footer {
-  background-color: #d6bea2;
-  color: #402e02;
-  padding: 100px 0px 30px;
+  background-color: #D6BEA2;
+  color: #402E02;
+  padding: 100px 0 30px;
   border-top-left-radius: 125px;
   font-size: large;
   line-height: 20px;
@@ -192,15 +201,13 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.row {
-  width: 85%;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
 .col {
   flex-basis: 25%;
   padding: 10px;
+}
+
+body {
+  transition: all;
+  /* fixed */
 }
