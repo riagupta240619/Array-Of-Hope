@@ -2,16 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
-]
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 7e1f9a4 (Added GitHub Actions workflow for deployment)
 /* navbvar */
 
 li, a, button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16px; 
+    /* Fixed font size */
+    
+
     color: #402E02;
-/*     background-color: red; */
     text-decoration: none;
 }
 
@@ -19,7 +25,7 @@ header {
     display: flex;
     align-items: center;
     background-color: white;
-    flex-wrap: wrap; /* Allow items to wrap */
+    flex-wrap: wrap; 
 }
 
 .logo {
