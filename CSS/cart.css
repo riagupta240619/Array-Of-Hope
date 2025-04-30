@@ -209,5 +209,5 @@ footer {
 
 body {
   transition: all;
-  /* fixed */
+  /* adds transition to the body */
 }
