@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
-]
 /* navbvar */
 
 li, a, button {
@@ -11,7 +11,6 @@ li, a, button {
     font-weight: 500;
     font-size: 16px;
     color: #402E02;
-/*     background-color: red; */
     text-decoration: none;
 }
 
@@ -19,7 +18,7 @@ header {
     display: flex;
     align-items: center;
     background-color: white;
-    flex-wrap: wrap; /* Allow items to wrap */
+    flex-wrap: wrap; 
 }
 
 .logo {
