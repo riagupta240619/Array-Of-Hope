@@ -3,23 +3,23 @@ const halfcup = document.querySelector(".half-cup");
 const empcup = document.querySelector(".empty-cup");
 
 halfcup.addEventListener("click", () => {
-    halfcup.classList.add("empty");
-    fullcup.classList.remove("empty");
-    console.log("working");
+  halfcup.classList.add("empty");
+  fullcup.classList.remove("empty");
+  console.log("working");
 });
 
 empcup.addEventListener("click", () => {
-    empcup.classList.add("empty");
-    halfcup.classList.remove("empty");
-    console.log("empty");
+  empcup.classList.add("empty");
+  halfcup.classList.remove("empty");
+  console.log("empty");
 });
 fullcup.addEventListener("click", () => {
-    fullcup.classList.add("empty");
-    empcup.classList.remove("empty");
-    console.log("empty");
+  fullcup.classList.add("empty");
+  empcup.classList.remove("empty");
+  console.log("empty");
 });
 fullcup.addEventListener("click", () => {
-    fullcup.classList.add("empty");
-    empcup.classList.remove("empty");
-    console.log("empty");
+  fullcup.classList.add("empty");
+  empcup.classList.remove("empty");
+  console.log("empty");
 });
