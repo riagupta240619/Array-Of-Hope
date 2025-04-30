@@ -204,21 +204,10 @@ footer {
 
 .col {
   flex-basis: 25%;
-<<<<<<< HEAD
-<<<<<<< HEAD
   padding:10px;
-}
-=======
-  padding: 10px;
-}
-
->>>>>>> parent of e518bcb (conflict)
-=======
-  padding: 10px;
 }
 
 body {
   transition: all;
   /* fixed */
 }
->>>>>>> 67b261950b3a6acb18ef6413b67fa8ccbabeceda
