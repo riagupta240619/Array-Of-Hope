@@ -40,6 +40,7 @@ nav {
 }
 
 /* CSS for links */
+
 .nav_links li {
     display: inline-block;
     padding: 0 10px;
@@ -58,7 +59,7 @@ button {
 }
     
 .nav_extras {
-    margin-left: auto; /* Align to the right */
+    margin-left: auto;  /* Align to the right */
 }
 
 button:hover {
@@ -69,8 +70,8 @@ form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
-    width: 500px; /* Make it responsive */
-    max-width: 2000px; /* Set max-width */
+    width: 500px;   /* Make it responsive */
+    max-width: 2000px;  /* Set max-width */
     background: #f1f1f1;
     border-radius: 50px;
     margin: 5px 5px 5px 20px;
@@ -137,7 +138,7 @@ form.example input[type=text] {
 /* navbvar ENDS */
 
 .banner {
-    width: 100%; /* Make it full width */
+    width: 100%;   /* Make it full width */
     position: relative;
     overflow: hidden;
 }
@@ -220,7 +221,7 @@ footer {
 }
 
 
-/* changes */
+/* changes For Testimonials */
 
 .Testimonial {
     background: white;
