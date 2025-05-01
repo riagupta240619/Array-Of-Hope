@@ -312,7 +312,7 @@ img {
     height: auto;
 }
 
-/* Media Queries */
+/* Media Queries  For Responsiveness*/
 @media (max-width: 1200px) {
     .col {
         flex-basis: 45%; /* Adjust column width for medium screens */
