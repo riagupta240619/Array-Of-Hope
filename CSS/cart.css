@@ -207,6 +207,10 @@ footer {
   padding:10px;
 }
 
+.col {
+  flex-basis: 25%;
+  padding:10px;
+}
 body {
   transition: all;
   /* adds transition to the body */
