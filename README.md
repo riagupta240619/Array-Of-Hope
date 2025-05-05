@@ -3,7 +3,7 @@
 Welcome to **brew Heaven**, a modern and elegant café website built to showcase the cozy ambiance, delightful menu, and community spirit of our coffee haven. This project is ideal for local cafés wanting to establish an online presence.
 
 ## 🌐 Live Demo  
-[Visit the Website](https://yourcafewebsite.com) *(Replace with actual URL if hosted)*
+[Visit the Website](https://yourcafewebsite.com) 
 
 ---
 
